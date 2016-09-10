@@ -20,5 +20,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         btNext = (Button) findViewById(R.id.btNext);
         btSkip = (Button) findViewById(R.id.btSkip);
+        indicator = (SmartTabLayout) findViewById(R.id.indicator);
+        pager = (ViewPager) findViewById(R.id.pager);
     }
 }
