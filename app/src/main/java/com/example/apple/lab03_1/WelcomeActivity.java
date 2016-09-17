@@ -93,6 +93,13 @@ public class WelcomeActivity extends AppCompatActivity {
                 }
         }
         });
+        btSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                finishWelcome();
+            }
+        });
 }
 
     private void finishWelcome() {
