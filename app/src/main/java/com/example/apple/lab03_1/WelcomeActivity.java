@@ -68,7 +68,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
                 if (position == TOTAL_PAGES -1){
                     btNext.setText("Done");
-                    btSkip.setVisibility(View.VISIBLE);
+                    btSkip.setVisibility(View.GONE);
                 }
                 else {
                     btNext.setText("Next");
